@@ -25,6 +25,7 @@ source $ZSH/oh-my-zsh.sh
 alias cat="ccat"
 alias snow="python3 $HOME/_/snowcrash/ssh.py"
 alias rain="python3 $HOME/_/rainfall/ssh.py"
+alias srain="python3 $HOME/_/rainfall/ssh.py -s"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
