@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Current working dir
+CWD="$(git rev-parse --show-toplevel)"
+
+ echo -e "\n\n\e[32;1m ==============> Building share <=====================\n\n\e[0m" && cd "${CWD}/share" && npm i && node_modules/.bin/gulp build
+# api and www can install in parallel
+ echo -e "\n\n\e[32;1m ==============> Building share in API <=====================\n\n\e[0m" && cd "${CWD}/api" && rm -rf node_modules/phoenix-share && npm i &
+ echo -e "\n\n\e[32;1m ==============> Building share in WWW<=====================\n\n\e[0m" && cd "${CWD}/www" && rm -rf node_modules/phoenix-share && npm i &
+
+wait

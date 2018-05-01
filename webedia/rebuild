@@ -1,0 +1,7 @@
+#!/bin/bash
+for i in $(git rev-parse --show-toplevel)/{share,api,www}; do
+  echo -e "\n\n\e[31;1m ==============> Building $(basename $i) <=====================\n\n\e[0m";
+  cd $i;
+  rm -rf dist node_modules package-lock.json;
+  npm i && ./node_modules/.bin/gulp build;
+done

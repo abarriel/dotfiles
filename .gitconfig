@@ -1,0 +1,11 @@
+[user]
+	email = abarriel@student.42.fr
+[push]
+	default = simple
+[core]
+	editor = vim
+	excludesfile = /home/abarriel/.gitignore_global
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	rebuild = "for i in $(git rev-parse --show-toplevel)/{share,api,www}; do\n  echo -e \"\\e[31;1m ==============> Building $(basename $i) <=====================\\e[0m\";\n  cd $i;\n  rm -rf dist node_modules package-lock.json;\n  npm i && ./node_modules/.bin/gulp build;\ndone\n"
+	exec = "!exec "
