@@ -343,11 +343,9 @@
   },
   "Transparency" : 0,
   "Background Color" : {
-    "Red Component" : 0.18823529411764706,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.18823529411764706,
-    "Alpha Component" : 1,
-    "Green Component" : 0.18823529411764706
+    "Green Component" : 0.060920167714357376,
+    "Red Component" : 0.0540635846555233,
+    "Blue Component" : 0.097826063632965088
   },
   "Screen" : -1,
   "AWDS Window Option" : "Yes",
