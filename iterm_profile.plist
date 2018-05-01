@@ -1,4 +1,6 @@
 {
+"Profiles": [
+{
   "Working Directory" : "\/Users\/abarriel\/_",
   "Prompt Before Closing 2" : false,
   "Selected Text Color" : {
@@ -365,4 +367,6 @@
     "Red Component" : 0.42564234137535095,
     "Blue Component" : 0.65052211284637451
   }
+}
+]
 }

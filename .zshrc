@@ -1,6 +1,6 @@
 export PATH=$HOME/.brew/bin:$PATH
 export ZSH=$HOME/.oh-my-zsh
-
+export PATH=$HOME/Library/Python/2.7/bin:$PATH
 export NODE_ENV=development
 
 ZSH_THEME="spaceship"
@@ -28,3 +28,4 @@ alias rain="python3 $HOME/_/rainfall/ssh.py"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
