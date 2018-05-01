@@ -1,0 +1,56 @@
+{
+    "sync.gist": "15cb128b8ea0b4a8932b00ef5f9b2638",
+    "sync.lastUpload": "2018-03-26T21:39:07.174Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "2018-04-03T17:39:23.261Z",
+    "sync.forceDownload": false,
+    "sync.anonymousGist": false,
+    "files.insertFinalNewline": true,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "workbench.startupEditor": "welcomePage",
+    "workbench.colorTheme": "Monokai",
+    "window.zoomLevel": -1,
+    "editor.detectIndentation": false,
+    "explorer.confirmDragAndDrop": false,
+    "[python]": {
+      "editor.tabSize": 4,      
+    },
+    "[c]": {
+        "editor.tabSize": 4,      
+    },
+    "[cpp]": {
+        "editor.tabSize": 4,
+    },
+    "[javascript]": {
+      "editor.tabSize": 2,      
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "USE_GITIGNORE": true,
+        "**/.DS_Store": true,
+        "**/*.a": true,
+        "**/*.o": true,
+        "*.so": true,
+        "**/.so": true
+    },
+    "python.linting.enabled": false,
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "editor.minimap.enabled": false,
+    "[log]": {},
+    "terminal.integrated.fontFamily": "'Meslo LG L DZ for Powerline'",
+    "terminal.external.osxExec": "Iterm2.app",
+    "workbench.colorCustomizations" : {
+        "terminal.background" : "#000000"
+    },
+    "C_Cpp.intelliSenseEngine": "Tag Parser"
+}
